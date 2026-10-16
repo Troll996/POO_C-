@@ -29,8 +29,11 @@ struct point{
 };
 
 // EX3
-void saisir_point{
-
+void saisir_point(point a){
+    cout<<"Saisir x du point: "<<endl;
+    cin>>a.x;
+    cout<<"Saisir y du point: "<<endl;
+    cin>>a.y;
 }
 
 
