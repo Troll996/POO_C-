@@ -10,7 +10,7 @@ struct essai
     float x;
 };
 
-// Par référence
+// Par rÃ©fÃ©rence
 void Remise_a_zero(essai &e){
     e.n=0;
     e.x=0.0;
@@ -40,7 +40,7 @@ int main()
     point a, b, c;
     a.x=3.2;
     a.y=6.4;
-    cout<<"Saisissez les coordonnées du point b"<<endl;
+    cout<<"Saisissez les coordonnÃ©es du point b"<<endl;
     cin>>b.x>>b.y;
     c.x=(a.x+b.x)/2;
     c.y=(a.y+b.y)/2;
